@@ -25,8 +25,8 @@ services:
       - /usr/local/bin/docker:/usr/local/bin/docker
 volumes:
  jenkins_home:
-  SonarQube_data:
-  SonarQube_extensions:
-  SonarQube_logs:
+ SonarQube_data:
+ SonarQube_extensions:
+ SonarQube_logs:
 networks:
   mynetwork:
