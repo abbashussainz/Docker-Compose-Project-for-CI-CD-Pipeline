@@ -24,6 +24,9 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/local/bin/docker:/usr/local/bin/docker
 volumes:
-  jenkins_home:
+ jenkins_home:
+  SonarQube_data:
+  SonarQube_extensions:
+  SonarQube_logs:
 networks:
   mynetwork:
